@@ -1,0 +1,19 @@
+:root {
+  --bg: #f4f6ec;
+  --ink: #1f2e1a;
+  --muted: #5a6a52;
+  --card: #fff;
+  --line: #d9e1c8;
+  --accent: #2f6b2f;
+  --sun: #e0a82e;
+  --bad: #a33a2a;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+.wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
